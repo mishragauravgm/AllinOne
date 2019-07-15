@@ -15,7 +15,11 @@
     {{ if $.Site.Params.facebook }}
       <a href="{{ $.Site.Params.facebook }}" target="_blank" rel="noopener"><i class="fab fa-facebook-f mr-3" aria-hidden="true"></i></a>
     {{ end }}
-
+    
+    {{ if $.Site.Params.researchgate }}
+      <a href="{{ $.Site.Params.researchgate }}" target="_blank" rel="noopener"><i class="fab fa-researchgate-f mr-3" aria-hidden="true"></i></a>
+    {{ end }}
+    
     {{ if $.Site.Params.googleplus }}
     <a href="{{ $.Site.Params.googleplus }}" target="_blank" rel="noopener"><i class="fab fa-google-plus-g mr-3" aria-hidden="true"></i></a>
     {{ end }}
